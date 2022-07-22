@@ -23,6 +23,7 @@ function AddNote() {
   };
   return (
     <div className="container">
+      <h2 className="my-4">Add your notes</h2>
       <div className="mb-3">
         <label htmlFor="title" className="form-label">
           Title{" "}

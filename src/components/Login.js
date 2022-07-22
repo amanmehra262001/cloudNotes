@@ -34,6 +34,7 @@ const Login = (props) => {
 
   return (
     <div className="container">
+      <h2 className="my-4">Login with cloudNotes!</h2>
       <form onSubmit={handleSubmit}>
         <div className="mb-3">
           <label htmlFor="email" className="form-label">

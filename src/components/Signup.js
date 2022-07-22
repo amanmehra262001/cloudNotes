@@ -32,6 +32,9 @@ const Signup = (props) => {
 
   return (
     <div className="container">
+      <h2 className="my-4">
+        SignUp with cloudNotes-to create secure notes on cloud!
+      </h2>
       <form onSubmit={handleSubmit}>
         <div className="mb-3">
           <label htmlFor="name" className="form-label">
