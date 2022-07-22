@@ -1,11 +1,8 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { Link, useLocation } from "react-router-dom";
 
 function Navbar() {
   let location = useLocation();
-  useEffect(() => {
-    console.log(location);
-  }, [location]);
 
   return (
     <div>
@@ -48,6 +45,14 @@ function Navbar() {
                 </Link>
               </li>
             </ul>
+            <form className="d-flex">
+              <Link className="btn btn-primary mx-1" to="/login" role="button">
+                Login
+              </Link>
+              <Link className="btn btn-primary mx-1" to="/signup" role="button">
+                Signup
+              </Link>
+            </form>
           </div>
         </div>
       </nav>
